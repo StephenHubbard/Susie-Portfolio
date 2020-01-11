@@ -1,0 +1,38 @@
+.nested-icon {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.bc-card-front {
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.sign-pic {
+    height: 300px;
+    width: 300px;
+}
+
+.showcase {
+    width: 100%;
+}
+
+.showcase-article {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.showcase-article span {
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .bc-card-front {
+        height: 100px;
+    }
+}
